@@ -3,15 +3,19 @@ Hostel-Management-System
 <ol>
   <li>Multiple user types
         <ul>
-          <li>-Admin</li>
-          <li>-Warden</li>
-          <li>-Students.</li> 
+          <li>Admin</li>
+          <li>Warden</li>
+          <li>Students.</li> 
         </ul>
   </li>
   <li>Messaging System</li>
   <li>Notification board by post</li>
-  <li>Developed in PDO</li>
-  <li>Hashed password with SHA-256</li>
+  <li>Developed in PHP Data Objects</li>
+  <li>Password hashed with SHA-256</li>
+  <li>User Profiles</li>
+  <li>Keep track of room occupants</li>
+  <li>Room & Block Management</li>
+  <li>Payment Tracking</li>
 </ol>
   
 - Has messaging and post features.
