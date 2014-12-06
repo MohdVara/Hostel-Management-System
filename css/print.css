@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+		
+		#studentDetails{
+			margin-top: 50px;
+			margin-left:20%;
+		}
+		
+		#studentDetails td{
+			padding: 10px 10px 10px 10px;
+		}
+		
+		#Payment{
+			margin-left: 5%;
+			margin-bottom: 20%;
+		}
+		
+		#PayTable, #PayTable td{
+			border:1px solid black;
+			padding: 5px 5px 5px 5px;
+			margin-left: 20%;
+		}
+		
+		#StudentSignature{
+			width:18%;
+			float: right;
+			margin-right:10%;
+		}
+		
+		#footer{
+			width: 90%;
+			margin-top:10%;
+			
+		}
+		
+		#DateBox{
+			margin-left:30px;
+			margin-right:80%;
+		}

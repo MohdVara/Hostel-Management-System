@@ -1,0 +1,286 @@
+@charset "utf-8";
+
+/* CSS Document */
+body{
+	font-family : Arial, Helvetica,san-serif;
+}
+
+ul {
+	list-style-type: none;
+			 margin: 0;
+			padding: 0;
+		   overflow: hidden;
+			  float: left;
+	
+}
+
+li {
+	float: left;
+}
+
+a:link, a:visited{
+	display: block;
+    width: 130px;
+	height: 40px;
+	vertical-align:middle;
+    color: rgb(255,255,255);
+    background-color: rgb(0,128,255);
+	font-family: Arial;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+	
+
+}
+
+a:hover, a:active {
+    background-color: rgb(70,130,180);
+}
+
+#data{
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid black;
+}
+
+#data td{
+	 border: 1px solid black;
+	 padding: 10px;
+	
+}
+
+#NavBar {
+	margin-top: 5px;
+	width: 100%;
+	height: 50px;
+	background-color: rgb(0,128,255);
+	border: 1px solid black;
+}
+
+#feed{
+	width: 90%;
+	border: 1px solid black;
+	padding: 5px 5px 5px 5px;
+	margin-top: 5px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#date{
+	font-size: 90%;
+}
+
+#AddPayment{
+	margin-bottom: 20px;
+	border: 1px solid black;
+	width: 350px;
+	height: 230px;
+	padding: 10px 10px 10px 10px;
+	float:  right;
+}
+#container {
+	width:1024px;
+	height:auto;
+	left: auto;
+	right: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#header {
+	height: 100px;
+	width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
+	left: auto;
+	right: auto;
+}
+
+
+
+#button {
+	width: 1022px;
+	height:auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	left: auto;
+	right: auto;
+	float: left;
+	background-color: #09F;
+	border:solid 1px #CCC;
+}
+
+#content {
+	border: 2px solid black;
+	height: auto;
+	width: 746px;
+	float: left;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	left: auto;
+	right: auto;
+	padding: 10px;
+}
+
+#content1 {
+	height: 502.5px;
+	width: 767px;
+	float: left;
+	margin-right: auto;
+	margin-left: auto;
+	left: auto;
+	right: auto;
+}
+
+#sidebar {
+	border:solid 1px #CCC;
+	min-height: 505px;
+	max-height: 735px;
+	width: 250px;
+	float: left;
+	margin-right: auto;
+	margin-left: auto;
+	left: auto;
+	right: auto;
+}
+
+#sidebarTitle {
+	height:100px;
+	width: 256px;
+	float: left;
+	margin-right: auto;
+	margin-left: auto;
+	left: auto;
+	right: auto;
+	
+}
+
+#First_Box
+{
+	width: 95%;
+	min-height: 150px;
+	max-height: 350px;
+	border: 2px solid black;
+	margin-left: auto;
+	margin-right:auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+#First_Head
+{
+	width: 100%;
+	height: 30px;
+	border-bottom: 1px solid black;
+}
+
+#First_Body
+{
+	width: 100%;
+	min-height:110px;
+	border-top: 1px solid black;
+}
+
+#Paymentform
+{
+	font-size:80%;
+	text-align:justify;
+		
+}
+
+#Second_Box
+{
+	width:95%;
+	height: 350px;
+	border: 2px solid black;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#Second_Head
+{
+	width:100%;
+	height: 30px;
+	border-bottom: 1px solid black;
+}
+
+#Second_Body
+{
+	width:100%;
+	min-height: 280px;
+	border-top: 1px solid black;
+	font-size:100%;
+
+}
+
+#MessagingForm
+{
+	font-size:80%;
+	margin-top:5px;
+	text-align:justify;
+}
+
+a:active{text-decoration:underline;}
+
+#Add_Box{
+	
+	    height:250px;
+	     width:700px;
+	    margin:10px 10px 10px 10px;
+	    border:1px solid black;
+
+	
+}
+
+#Add_Block
+{
+	height:200px;
+	 width:300px;
+	 float:left;
+	border:1px solid black;
+   margin:20px 20px 20px 20px;
+}
+
+
+#Add_Room
+{
+	height: 200px;
+	 width: 300px;
+	 float: left;
+	border: 1px solid black;
+    margin:20px 20px 20px 20px;
+}
+
+#room_box
+{
+	height: 200px;
+	 width: 90%;
+	border: 1px solid black;
+	margin: 30px 30px 30px 30px;
+}
+
+#room_id_box
+{	
+				height: 40px;
+			   	 width: 100%;
+			border-top: 1px solid black;
+		 border-bottom: 1px solid black;
+			margin-top: 20px;
+		 margin-bottom: 10px;
+}
+
+#SearchRoom
+{
+		  height:130px;
+		   width:300px;
+		  border: 1px solid black;
+	 margin-left: auto;
+	margin-right: auto;
+		 padding: 0px 20px 20px 20px;
+}
